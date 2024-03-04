@@ -8,7 +8,7 @@
       "question_number": "Question 1",
       "key_form": "key_form1",
       "title_question": "Question 1 - Business Survival",
-      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the share of voucher beneficiaries who are operating a business entity six months after they receive the training, compared to voucher beneficiaries who do not receive the training?\n Please provide your answer in percentage points. Be aware that percentage points are different from percentages.\n For example, imagine after six months from the beginning of the program 20% of the COMPARISON GROUP (that doesn't receive any training) is operating a business entity, while 40% of the TREATMENT GROUP (that receives training) is operating a business entity.\n\n - PERCENTAGE POINTS: there is a difference equal to 20 p.p.(=40% - 20%).\n\n - PERCENTAGE: there is a difference equal to 100% (40% is double than 20%).\n\n _Please allocate the probabilities in PERCENTAGE POINTS in the cells corresponding to your beliefs. The values entered should add to 100 p.p._",
+      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the share of voucher beneficiaries who are operating a business entity six months after they receive the training, compared to voucher beneficiaries who do not receive the training?\n Please provide your answer in percentage points (p.p.). Be aware that percentage points are different from percentages.\n For example, imagine after six months from the beginning of the program 20% of the COMPARISON GROUP (that doesn't receive any training) is operating a business entity, while 40% of the TREATMENT GROUP (that receives training) is operating a business entity.\n\n - **PERCENTAGE POINTS**: there is a difference equal to 20 p.p. (=40% - 20%).  \n- **PERCENTAGE**: there is a difference equal to 100% (40% is double than 20%).\n\n _Please allocate the probabilities in PERCENTAGE POINTS in the cells corresponding to your beliefs. The values entered should add to 100 p.p._",
       "column_1": "Percentage Points of Difference in Share of Firms in Operation",
       "column_2": "Probabilities",
       "minor_value": "< -15.0",
@@ -19,7 +19,7 @@
       "key": "data_editor1",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question1",
-      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more voucher beneficiaries? Express your answer in percentage points. For example, if you would want the share of voucher beneficiaries who are operating a business entity to increase by at least X percentage points (against the comparison group) then you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more voucher beneficiaries? Express your answer in percentage points. For example, if you would want the share of voucher beneficiaries who are operating a business entity to change by at least X p.p., then you should give X as your answer."
     },
 
     "question2": {
@@ -37,7 +37,7 @@
       "key": "data_editor2",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question2",
-      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more voucher beneficiaries? Express your answer in percentage points. For example, if you would want the share of voucher beneficiaries who have developed at least one MVP to increase by at least X p.p. (against the comparison group) then you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more voucher beneficiaries? Express your answer in percentage points. For example, if you would want the share of voucher beneficiaries who have developed at least one MVP to change by at least X p.p. (against the comparison group) then you should give X as your answer."
     },
 
     "question3": {
@@ -55,7 +55,7 @@
       "key": "data_editor3",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question3",
-      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more voucher beneficiaries? Express your answer in percentage points. For example, if you would want the number of business practices to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more voucher beneficiaries? Express your answer in percentage points. For example, if you would want the number of business practices to change by at least X p.p., you should give X as your answer."
     },
 
     "question4": {
@@ -73,14 +73,14 @@
       "key": "data_editor4",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question4",
-      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more firms? Express your answer in percentage points. For example, if you would want the annual revenue to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more firms? Express your answer in percentage points. For example, if you would want the annual revenue to change by at least X p.p., you should give X as your answer."
     },
     
       "question5": {
       "question_number": "Question 5",
       "key_form": "key_form5",
       "title_question": "Question 5 - Annual Net Profit",
-      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the Annual Net Profit of voucher beneficiaries six months after they receive the training, compared to voucher beneficiaries in the comparison group who do not receive this training program?  \nNet profit is the amount of income that remains after all operating expenses, taxes, interest, and preferred stock dividends have been deducted from a company's total revenue.  \n\n_Please allocate the probabilities in PECENTAGE POINTS in the cells corresponding to your beliefs. The values entered should add to 100 p.p._ ",
+      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the Annual Net Profit of voucher beneficiaries six months after they receive the training, compared to voucher beneficiaries in the comparison group who do not receive this training program?  \nNet profit is the amount of income that remains after all operating expenses, taxes, interest, and preferred stock dividends have been deducted from a company's total revenue.  \n\n_Please allocate the probabilities in PERCENTAGE POINTS in the cells corresponding to your beliefs. The values entered should add to 100 p.p._ ",
       "column_1": "Percentage Points Change in Annual Net Profit",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -91,14 +91,14 @@
       "key": "data_editor5",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question5",
-      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more firms? Express your answer in percentage points. For example, if you would want the annual net profit to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more firms? Express your answer in percentage points. For example, if you would want the annual net profit to change by at least X p.p., you should give X as your answer."
     },
 
     "question6": {
       "question_number": "Question 6",
       "key_form": "key_form6",
       "title_question": "Question 6 - Full-time Employees",
-      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the number of Full-Time Employees of voucher beneficiaries six months after they receive the training, compared to voucher beneficiaries in the comparison group who do not receive this training program? \n\n_Please allocate the probabilities in PERCENTAGE in the cells corresponding to your beliefs. The values entered should add to 100%._ ",
+      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the number of Full-Time Employees of voucher beneficiaries six months after they receive the training, compared to voucher beneficiaries in the comparison group who do not receive this training program? \n\n_Please allocate the probabilities in **PERCENTAGE** in the cells corresponding to your beliefs. The values entered should add to 100%._ ",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -109,13 +109,13 @@
       "key": "data_editor6",
       "title_barchart": "Distribution of your Beliefs", 
       "num_input_question": "num_input_question6",
-      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more firms? Express your answer in percentage points. For example, if you would want the number of employees to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more firms? Express your answer in percentage points. For example, if you would want the number of employees to change by at least X p.p., you should give X as your answer."
     },
       "question7": {
       "question_number": "Question 7",
       "key_form": "key_form7",
       "title_question": "Question 7 - Positive Impact on Employment in a Neighbouring Country",
-      "subtitle_question": "Imagine that we conduct a similar study in a neighboring country. The treatment group receives a voucher as well as training and the comparison group only receives a voucher. Results indicate that companies in the treatment group increase employment by 10 percentage points compared to the control group. Researchers are very confident that the actual increase is between 5 and 15 percentage points. Would this information change your beliefs about the impact of the training in the Moravian Silesian region?  \n_Please look again at the answers you gave in Question 6. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._ ",
+      "subtitle_question": "Imagine that we conduct a similar study in a neighbouring country. The treatment group receives a voucher as well as training and the comparison group only receives a voucher. Results indicate that companies in the treatment group increase employment by 10 percentage points compared to the control group (the actual increment is between 5 and 15 percentage points). Would this information change your beliefs about the impact of the training in the Moravian Silesian region? \n\n_Please look again at the answers you gave in Question 6. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._ ",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -128,14 +128,14 @@
       "title_y_axis": "Probability",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question7",
-      "effect_size": "- What would be the minimum impact you would want to see in order to offer this program to more firms? Express your answer in percentage points. For example, if you would want the number of employees to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see in order to offer this program to more firms? Express your answer in percentage points. For example, if you would want the number of employees to change by at least X p.p., you should give X as your answer."
     },
 
       "question8": {
       "question_number": "Question 8",
       "key_form": "key_form8",
       "title_question": "Question 8 - Negative Impact on Employment in a Neighbouring Country",
-      "subtitle_question": "What if, instead, researchers had found that employment actually fell 5 percent in this other country relative to the control group. the estimates suggest that the actual decrease is between -10 and 0 percentage points. Would this information change your beliefs about the impact of the training in the Moravian Silesian region?  \n\n_Please look again at the answers you gave in Question 6. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._",
+      "subtitle_question": "What if, instead, researchers find that employment actually fell 5 percent in this other country relative to the control group. The estimates suggest that the actual decrease is between -10 and 0 percentage points. Would this information change your beliefs about the impact of the training in the Moravian Silesian region?  \n\n_Please look again at the answers you gave in Question 6. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -148,14 +148,14 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question8",
-      "effect_size": "- What would be the minimum impact you would want to see in order to offer this program to more firms? Express your answer in percentage points. For example, if you would want the number of employees to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see in order to offer this program to more firms? Express your answer in percentage points. For example, if you would want the number of employees to change by at least X p.p., you should give X as your answer."
     },
 
     "question9": {
       "question_number": "Question 9",
       "key_form": "key_form9",
       "title_question": "Question 9 - Correlation Example",
-      "subtitle_question": "In statistics, the correlation is a measure of how strongly two outcomes are linearly related. The correlation lies between -1 and 1. A correlation of -1 means that variables move perfectly in the opposite direction to one another, so that if one is high, the other is low. A 0 correlation means no relationship between them, while a correlation of +1 means the two move linearly together. A positive number between 0 and 1 means the two don't move perfectly together, but that you are somewhat more likely to see positive impacts in one variable when you see them somewhere else.\nTo make sure this is clear, let's first consider an example on the weather. What do you think is the correlation between the temperature on a Saturday and on a Sunday for all the weekends in a year?\n_Please allocate the probabilities in the cells corresponding to your beliefs._",
+      "subtitle_question": "In statistics, the correlation is a measure of how strongly two outcomes are linearly related. The correlation lies between -1 and 1. A correlation of -1 means that variables move perfectly in the opposite direction to one another, so that if one is high, the other is low. A 0 correlation means no relationship between them, while a correlation of +1 means the two move linearly together. A positive number between 0 and 1 means the two don't move perfectly together, but that you are somewhat more likely to see positive impacts in one variable when you see them somewhere else.\nTo make sure this is clear, let's first consider an example on the weather. What do you think is the correlation between the temperature on a Saturday and on a Sunday for all the weekends in a year?\n\n_Please allocate the probabilities in PERCENTAGE in the cells corresponding to your beliefs. The values entered should add to 100%._",
       "column_1": "Correlation",
       "column_2": "Probabilities",
       "minor_value": "-1.0",
@@ -175,7 +175,7 @@
       "question_number": "Question 10",
       "key_form": "key_form10",
       "title_question": "Question 10 - Correlation Between Effects of the Program in Romania and Those in Another Country",
-      "subtitle_question": "We would like you to express your beliefs about the correlation you would expect to see between treatment estimates in Moravian Silesian region and those in another country. A negative correlation means you think if Smart Start training has a negative impact somewhere else this makes it more likely it has a positive impact in Moravian Silesian. A 0 correlation means no relationship between what you find elsewhere and what you expect to see in Moravian Silesian region, while a positive correlation means if you think that when programs find a high impact somewhere else you will be more likely to also find a high impact in Moravian Silesian region.  \n_Please allocate the probabilities in the cells corresponding to your beliefs._",
+      "subtitle_question": "We would like you to express your beliefs about the correlation you would expect to see between treatment estimates in Moravian Silesian region and those in another country. A negative correlation means you think if Smart Start training has a negative impact somewhere else this makes it more likely it has a positive impact in Moravian Silesian. A 0 correlation means no relationship between what you find elsewhere and what you expect to see in Moravian Silesian region, while a positive correlation means if you think that when programs find a high impact somewhere else you will be more likely to also find a high impact in Moravian Silesian region. \n\n_Please allocate the probabilities in PERCENTAGE in the cells corresponding to your beliefs. The values entered should add to 100%._",
       "column_1": "Correlation",
       "column_2": "Probabilities",
       "minor_value": "-1.0",
