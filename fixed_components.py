@@ -25,7 +25,7 @@ def consent_form():
     """)
     agree = st.checkbox("I understand and consent.")
     if agree:
-        st.markdown("You have consented. Select \"Next\" to start the survey.")
+        st.markdown("You have consented. Select \"Next\" to start the survey. Please keep in mind that it's not possible to save the answers and continue later. The survey must be filled in all at once.")
         st.button('Next', on_click=add_consent)
 
 
@@ -41,7 +41,7 @@ def user_professional_category():
     #st.write("ciao" if 'professional_category' not in st.session_state else st.session_state['professional_category'])
 
 def years_of_experience():
-    st.number_input('Please, insert the years of experience you have working on digitalization topics:', min_value= 0, max_value= 70, key = 'years_of_experience')
+    st.number_input('Please, insert the years of experience you have in entrepreneurship :', min_value= 0, max_value= 70, key = 'years_of_experience')
 
 
 def personal_information():
@@ -71,9 +71,9 @@ def secrets_to_json():
 
 TITLE_INSTRUCTIONS = '''Instructions'''
 
-SUBTITLE_INSTRUCTIONS = '''This example is designed to help you understanding the survey question format and how to effectively respond to inquiries about the outcomes of participating in the North East Romania Digitalization Program.\\
-    For each question, you have a table with intervals, like the one below. Please allocate probabilities, writing the number in the corresponding cell, based on the likelihood that you think a specific event will happen, as shown in the example table. You cannot allocate more than 100%.  \\
-    As an example, suppose we ask your beliefs of what is going to be the max temperature in Celsius degrees in your city/town tomorrow, it's summer and the weather forecast predicts heavy rain in the morning. 
+SUBTITLE_INSTRUCTIONS = '''This example is designed to help you understand the survey question format and how to effectively respond to inquiries about the outcomes of participating in the Smart Start Training.\\
+    For each question you have a table with intervals, like the one below. Please allocate probabilities by writing a number in each cell, based on how likely you think a specific event will happen, following the example provided. **Remember, the total probability allocated cannot exceed 100%.**  \\
+    As an example, imagine we ask about your beliefs regarding the maximum temperature in Celsius degrees in your city or town tomorrow, considering it's summer and the weather forecast predicts heavy rain in the morning. 
       
     '''
 CAPTION_INSTRUCTIONS = '''As illustrated in the table, you predicted that there's a 45\% chance of having 25 Celsius degrees, 20% chance of having 26 Celsius degrees and so on. \\

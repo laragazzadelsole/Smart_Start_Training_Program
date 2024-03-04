@@ -44,7 +44,8 @@ def initialize_session_state():
             'RCT Q3': [],
             'RCT Q4': [],
             'RCT Q5': [],
-            'RCT Q6': []
+            'RCT Q6': [],
+            'RCT Q7': []
             }
     
 def safe_var(key):
@@ -152,6 +153,8 @@ def RCT_questions():
     st.text_input('Please, write about your experience (max 500 characters).',max_chars=500, key = 'RCT_question5')
     st.write('- Do you think allocating grants randomly amongst equally eligible potential beneficiaries is ethical? Did you think so before engaging in the RCT?')
     st.text_input('Please, write about your experience (max 500 characters).', max_chars=500, key = 'RCT_question6')
+    st.write('- Do you have any other consideration on RCT that you want to share?')
+    st.text_input('Please, write about your experience (max 500 characters).', max_chars=500, key = 'RCT_question7')
 
 def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updated_bins_question_3_df, updated_bins_question_4_df, updated_bins_question_5_df, updated_bins_question_6_df, updated_bins_question_7_df, updated_bins_question_8_df, updated_bins_question_9_df, updated_bins_question_10_df):
     
@@ -205,6 +208,7 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     RCT_Q4 = 'RCT Q4'
     RCT_Q5 = 'RCT Q5'
     RCT_Q6 = 'RCT Q6'
+    RCT_Q7 = 'RCT Q7'
 
     data[USER_FULL_NAME].append(safe_var('user_full_name'))
     data[USER_POSITION].append(safe_var('user_position'))
@@ -228,6 +232,7 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     data[RCT_Q4].append(safe_var('RCT_question4'))
     data[RCT_Q5].append(safe_var('RCT_question5'))
     data[RCT_Q6].append(safe_var('RCT_question6'))
+    data[RCT_Q7].append(safe_var('RCT_question7'))
 
     st.session_state['data'] = data
     
@@ -244,17 +249,17 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
     creds = ServiceAccountCredentials.from_json_keyfile_dict(secrets_to_json(), scope)
     client = gspread.authorize(creds)
  
-    sheet = client.open("Survey answers: Romania Case").sheet1
+    sheet = client.open("Smart Start Training Project Survey Data").sheet1
 
     column_names_list = concatenated_df.columns.tolist()
     #test_sheet = client.create(f'Test for Romania').sheet1
-    #column_names = sheet.append_row(column_names_list)
+    column_names = sheet.append_row(column_names_list)
     sheet_row_update = sheet.append_rows(concatenated_df.values.tolist()) #.values.tolist())
     #duplicate = sheet.duplicate(new_sheet_name='Duplicate data')
     #st.success('Data has been saved successfully.')
     
     #Navigate to the folder in Google Drive. Copy the Folder ID found in the URL. This is everything that comes after “folder/” in the URL.
-    backup_sheet = client.create(f'Backup_{data[USER_FULL_NAME]}_{datetime.now()}', folder_id='1WTHKA2QT-1MDj0PpV5YX_Yboxf4pniJ9').sheet1
+    backup_sheet = client.create(f'Backup_{data[USER_FULL_NAME]}_{datetime.now()}', folder_id='1nul_bK4pu4Us9si8eI0g4wI2JyoeRCWE').sheet1
     backup_sheet = backup_sheet.append_rows(concatenated_df.values.tolist()) #(new_bins_df.iloc[:2].values.tolist())
     #backup_sheet.share('', perm_type = 'user', role = 'writer')
 

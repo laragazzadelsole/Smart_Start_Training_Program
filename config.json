@@ -1,55 +1,51 @@
 {
     "header": {
-      "survey_title": "Foundational Digital Transformation in North-East Romania",
-      "survey_description": "Please be advised that this survey is resource-intensive and demands significant RAM for optimal performance. To avoid potential slowdowns, , ensure all open windows and background programs are closed. Additionally, a stable internet connection is necessary for smooth operation.\n\nThe North-East Regional Development Agency - Managing Authority for North-East RP (2021-2027) - has partnered with the World Bank and leading experts from London Business School to investigate the effectiveness of the North East Romania Digitalization Program by rigorously evaluating the adoption of digital technologies by small- and medium-sized enterprises (SMEs).\n\nThe study sample consists of 1,038 eligible firms, characterized by an average profit of approximately 695,000 RON (around $146,000 USD), and an average workforce of 14 employees. These firms have an average Digital Economy and Society Index (DESI) score of 4.3 out of 12, indicating relatively low digitalization. Key digitalization aspects measured by DESI include widespread use of connected mobile devices, high-speed internet connections, significant internet use among employees, active social media presence, website ownership, electronic invoicing, smartphone usage, paid internet advertising, complex web functionalities, cloud computing, and notable e-commerce sales. Sector-wise, 18.8% of firms are in Wholesale and Retail Trade, repair of Motor Vehicles, followed by 16% in Professional, Scientific, and Technical Activities, 12% in Manufacturing, 11.4% in Human Health and Social Work Activities, and 11% in Construction, with other sectors having less representation. Geographically, only a small fraction of these firms (9.3%) view Europe as their marketplace, and an even smaller percentage (4.4%) consider their market to be global.\n\nThe program is designed to provide financial assistance to eligible SMEs, facilitating their acquisition of ICT hardware, development or adaptation of software applications/licenses, acquisition of AI systems, website development, and enhancement of IT infrastructure.\n\nBy comparing firms selected to participate in the program to those not selected to participate in a random assignment process, we seek to establish causal relationships between digitalization and its corresponding outcomes, while also distinguishing the effects for various types of firms.\n\nNon-refundable financial support will be provided to eligible SMEs, with a maximum project contribution of 90% of the eligible investment value.  \nTotal financial allocation is of 51.4 millions Euros and is carried out by launching calls for projects (min 15.000 Euros, max 100.000 Euros per firm).  \nThe focus is on increasing digital intensity, supporting the use of digital tools, equipment, and services by creating internet pages, digital promotion, cloud hosting services, e-commerce, digitalization of communication with clients, data collection, buying ICT hardware, and developing or adapting software applications/licenses.\n\nIn the following 12 questions you will be asked what you think it is the likely impact of the program for the firms that are offered the intervention, compared to those that do not participate to the program. It is the effect of BEING OFFERED the full program, regardless of whether or not a firm decides to participate, which is called, in technical terms, the intention-to-treat effect (ITT).\n\nYour opinion matters and we'd like to thank you with a gift. To show our appreciation for your time and honest feedback, we're offering a chance to win an Amazon voucher. Upon a careful completion of the survey, you'll be entered into a draw to win an Amazon voucher worth [value of the voucher]. Please think carefully about your answers, your perspective can make a significant difference!"
+      "survey_title": "Developing High-growth Entrepreneurship in the Czech Republic through Decision-Making Skills",
+      "survey_description": "Please be advised that this survey is resource-intensive and demands significant RAM for optimal performance. To avoid potential slowdowns, ensure all open windows and background programs are closed. Additionally, a stable internet connection is necessary for smooth operation.\n\nThe research will be conducted among beneficiaries of the Moravian Silesian Entrepreneurial Vouchers targeting new and existing entrepreneurs, as well as Small-Medium Enterprises (SMEs).\n\nVoucher beneficiaries will be randomly assigned into a Smart Start training program focused on building Strategic Decision-Making, applying Customer-Centric Insights, and learning Practical Tools to define problems, formulate hypotheses, test them, and evaluate the results, all essential skills for entrepreneurial success.\n\nBy comparing voucher beneficiaries who are randomly selected to get Smart Start training against voucher beneficiaries who are not selected for this program, we seek to establish causal relationships between the Smart Start training and outcomes such as firm sales and profits.\n\nThe following questions regard your beliefs on the likely impact of BEING OFFERED the Smart Start training program, regardless of whether or not a firm decides to participate in it. These questions ask for your opinion on how the outcomes might differ - on average - for firms that are offered the program compared to those that are not offered the program."
     },
 
     "question1": {
       "question_number": "Question 1",
       "key_form": "key_form1",
-      "title_question": "Question 1 - Internally Focused Digitalization Tools",
-      "subtitle_question": "On average, what percentage of the internally focused digitalization tools or technologies listed below do you think will be newly adopted in the SMEs selected for the program via the RCT method, after 2 years since firms received the money, compared to non-beneficiaries SMEs from the comparison group? The internally focused digitalization tools include: Computers with Internet access, Cloud Computing, Automation Software, Internal Communication Platforms and Data Analytics.  \n _Please allocate the probabilities in the cells corresponding to your beliefs._",
-      "column_1": "Percentage Points of Newly Adopted Internally Digitalization Tools",
+      "title_question": "Question 1 - Business Survival",
+      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the share of voucher beneficiaries who are operating a business entity six months after they receive the training, compared to voucher beneficiaries who do not receive the training?\n Please provide your answer in percentage points. Be aware that percentage points are different from percentages.\n For example, imagine after six months from the beginning of the program 20% of the COMPARISON GROUP (that doesn't receive any training) is operating a business entity, while 40% of the TREATMENT GROUP (that receives training) is operating a business entity.\n\n - PERCENTAGE POINTS: there is a difference equal to 20 p.p.(=40% - 20%).\n\n - PERCENTAGE: there is a difference equal to 100% (40% is double than 20%).\n\n _Please allocate the probabilities in PERCENTAGE POINTS in the cells corresponding to your beliefs. The values entered should add to 100 p.p._",
+      "column_1": "Percentage Points of Difference in Share of Firms in Operation",
       "column_2": "Probabilities",
-      "minor_value": "0",
-      "min_value_graph": 0,
-      "max_value_graph": 100,
+      "minor_value": "< -15.0",
+      "min_value_graph": -15,
+      "max_value_graph": 15,
       "step_size_graph": 5,
-      "major_value": "100",
+      "major_value": ">15.0",
       "key": "data_editor1",
-      "title_x_axis": "Annual Net Profit",
-      "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question1",
-      "effect_size": "- What would be the minimum impact you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the adoption of new internally focused digitalization tools to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more voucher beneficiaries? Express your answer in percentage points. For example, if you would want the share of voucher beneficiaries who are operating a business entity to increase by at least X percentage points (against the comparison group) then you should give X as your answer."
     },
 
     "question2": {
       "question_number": "Question 2",
       "key_form": "key_form2",
-      "title_question": "Question 2 - Externally Focused Digitalization Tools",
-      "subtitle_question": "On average, what percentage of the externally focused digitalization tools or technologies listed below do you think that will be newly adopted in the SMEs selected for the program via the RCT method, after 2 years since firms received the money, compared to non-beneficiaries SMEs from the comparison group? The externally focused digitalization tools include: E-commerce Platforms, Digital Marketing Tools, Customer Relationship Management (CRM) Software, Social Media Engagement Tools and Electonic Invoices.  \n _Please allocate the probabilities in the cells corresponding to your beliefs._",
-      "column_1": "Percentage Points of Newly Adopted Externally Digitalization Tools",
+      "title_question": "Question 2 - Development of minimum Viable Products (MVPs)",
+      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the share of voucher beneficiaries who have developed at least one MVP six months after they receive the training, compared to voucher beneficiaries in the comparison group who do not receive this training program? Be aware that percentage points (p.p.) are different from percentages.\n\n _Please allocate the probabilities in PERCENTAGE POINTS in the cells corresponding to your beliefs. The values entered should add to 100 p.p._",
+      "column_1": "Percentage Points of Difference in Share of Firms with an MVPs",
       "column_2": "Probabilities",
-      "minor_value": "0",
-      "min_value_graph": 0,
-      "max_value_graph": 100,
+      "minor_value": "< - 15.0",
+      "min_value_graph": -15,
+      "max_value_graph": 15,
       "step_size_graph": 5,
-      "major_value": "100",
+      "major_value": "> 15.0",
       "key": "data_editor2",
-      "title_x_axis": "Annual Net Profit",
-      "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question2",
-      "effect_size": "- What would be the minimum impact you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the adoption of new externally focused digitalization tools to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more voucher beneficiaries? Express your answer in percentage points. For example, if you would want the share of voucher beneficiaries who have developed at least one MVP to increase by at least X p.p. (against the comparison group) then you should give X as your answer."
     },
 
     "question3": {
       "question_number": "Question 3",
       "key_form": "key_form3",
-      "title_question": "Question 3 - New Customers Acquisition",
-      "subtitle_question": "On average, how much do you think that the SMEs selected for the program via the RCT method, after 2 years since firms received the money, have increased the number of customers outside Romania's borders, compared to non-beneficiaries SMEs from the comparison group?  \n _Please allocate the probabilities in the cells corresponding to your beliefs._",
-      "column_1": "Percentage Points of Newly Adopted Costumers",
+      "title_question": "Question 3 - Implementation of Business Practices",
+      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the number of Business Practices (e.g., planning, record-keeping, customer relations, inventory management, etc.) that voucher beneficiaries are implementing six months after they receive the training, compared to voucher beneficiaries in the comparison group who do not receive the training program?\n\n _Please allocate the probabilities in PERCENTAGE POINTS in the cells corresponding to your beliefs. The values entered should add to 100 p.p._",
+      "column_1": "Percentage Points of Impact on Business Practices Index",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
       "min_value_graph": -15,
@@ -57,18 +53,16 @@
       "step_size_graph": 5,
       "major_value": ">15",
       "key": "data_editor3",
-      "title_x_axis": "Annual Net Profit",
-      "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question3",
-      "effect_size": "- What would be the minimum impact you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the increment of customers outside Romania's borders to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more voucher beneficiaries? Express your answer in percentage points. For example, if you would want the number of business practices to increase by at least X%, you should give X as your answer."
     },
 
     "question4": {
       "question_number": "Question 4",
       "key_form": "key_form4",
       "title_question": "Question 4 - Annual Revenue",
-      "subtitle_question": "On average, how much do you think that the annual revenue would increase in the SMEs selected for the program via the RCT method after 2 years since firms received the money, compared to non-beneficiaries SMEs from the comparison group?  \nRevenue is usually defined as the total amount of money received by the firm from its business activities during the course of a year. This includes income from sales of goods and services, rental income, interest, royalties, fees, commissions, and any other business income. It does not include sales tax collected directly from customers and remitted to tax authorities.  \n_Please allocate the probabilities in the cells corresponding to your beliefs._",
+      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the Annual Revenue of voucher beneficiaries six months after they receive the training, compared to voucher beneficiaries in the comparison group who do not receive this training program?  \nRevenue is usually defined as the total amount of money received by the firm from its business activities during the course of a year. This includes income from sales of goods and services, rental income, interest, royalties, fees, commissions, and any other business income. It does not include sales tax collected directly from customers and remitted to tax authorities.  \n\n_Please allocate the probabilities in PERCENTAGE POINTS in the cells corresponding to your beliefs. The values entered should add to 100 p.p._",
       "column_1": "Percentage Points Change in Annual Revenue",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -77,18 +71,16 @@
       "step_size_graph": 5.0,
       "major_value": ">15.0",
       "key": "data_editor4",
-      "title_x_axis": "Annual Revenue",
-      "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question4",
-      "effect_size": "- What would be the minimum impact you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the annual revenue to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more firms? Express your answer in percentage points. For example, if you would want the annual revenue to increase by at least X%, you should give X as your answer."
     },
     
       "question5": {
       "question_number": "Question 5",
       "key_form": "key_form5",
       "title_question": "Question 5 - Annual Net Profit",
-      "subtitle_question": "On average, how much do you think that the annual net profit would increase in the SMEs selected for the program via the RCT method after 2 years since firms received the money, compared to non-beneficiaries SMEs from the comparison group?  \nNet profit is the amount of income that remains after all operating expenses, taxes, interest, and preferred stock dividends have been deducted from a company's total revenue.  \n _Please allocate the probabilities in the cells corresponding to your beliefs._ ",
+      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the Annual Net Profit of voucher beneficiaries six months after they receive the training, compared to voucher beneficiaries in the comparison group who do not receive this training program?  \nNet profit is the amount of income that remains after all operating expenses, taxes, interest, and preferred stock dividends have been deducted from a company's total revenue.  \n\n_Please allocate the probabilities in PECENTAGE POINTS in the cells corresponding to your beliefs. The values entered should add to 100 p.p._ ",
       "column_1": "Percentage Points Change in Annual Net Profit",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -97,18 +89,16 @@
       "step_size_graph": 5,
       "major_value": ">15.0",
       "key": "data_editor5",
-      "title_x_axis": "Annual Net Profit",
-      "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question5",
-      "effect_size": "- What would be the minimum impact you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the annual net profit to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more firms? Express your answer in percentage points. For example, if you would want the annual net profit to increase by at least X%, you should give X as your answer."
     },
 
     "question6": {
       "question_number": "Question 6",
       "key_form": "key_form6",
       "title_question": "Question 6 - Full-time Employees",
-      "subtitle_question": "On average, how much do you think that the total number of full-time employees would increase in the SMEs selected for the program via the RCT method after 2 years since firms received the money, compared to non-beneficiaries firms from the comparison group?\n_Please allocate the probabilities in the cells corresponding to your beliefs._ ",
+      "subtitle_question": "On average, how much do you think the Smart Start training program will impact the number of Full-Time Employees of voucher beneficiaries six months after they receive the training, compared to voucher beneficiaries in the comparison group who do not receive this training program? \n\n_Please allocate the probabilities in PERCENTAGE in the cells corresponding to your beliefs. The values entered should add to 100%._ ",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -117,17 +107,15 @@
       "step_size_graph": 5,
       "major_value": ">15.0",
       "key": "data_editor6",
-      "title_x_axis": "Employment Level",
-      "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs", 
       "num_input_question": "num_input_question6",
-      "effect_size": "- What would be the minimum impact you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see to offer the Smart Start training program to more firms? Express your answer in percentage points. For example, if you would want the number of employees to increase by at least X%, you should give X as your answer."
     },
       "question7": {
       "question_number": "Question 7",
       "key_form": "key_form7",
       "title_question": "Question 7 - Positive Impact on Employment in a Neighbouring Country",
-      "subtitle_question": "Suppose we found the impact on employment in one of these other neighboring countries was 10%, with a 95% confidence interval of [+5%., +15%]. That is, the program in this other country is estimated to have increased employment by 10% compared to a control group, and it is very likely the effect is between 5 and 15 percent. How, if at all, would this change your beliefs about the impact on employment in Romania?\n_Please look again at the answers you gave in Question 6. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._ ",
+      "subtitle_question": "Imagine that we conduct a similar study in a neighboring country. The treatment group receives a voucher as well as training and the comparison group only receives a voucher. Results indicate that companies in the treatment group increase employment by 10 percentage points compared to the control group. Researchers are very confident that the actual increase is between 5 and 15 percentage points. Would this information change your beliefs about the impact of the training in the Moravian Silesian region?  \n_Please look again at the answers you gave in Question 6. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._ ",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -140,14 +128,14 @@
       "title_y_axis": "Probability",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question7",
-      "effect_size": "- What would be the minimum impact you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see in order to offer this program to more firms? Express your answer in percentage points. For example, if you would want the number of employees to increase by at least X%, you should give X as your answer."
     },
 
       "question8": {
       "question_number": "Question 8",
       "key_form": "key_form8",
       "title_question": "Question 8 - Negative Impact on Employment in a Neighbouring Country",
-      "subtitle_question": "What if, instead, we had found that employment actually fell 5 percent in this other country relative to the control group, with a 95% confidence interval of [-10%., 0%]. That is, the program in this other country is estimated to have led slightly firms to shrink their labor force compared to a control group, and it is very likely the effect is between -10 and 0 percent. How, if at all, would this change your beliefs about the impact on employment in Romania?\n_Please look again at the answers you gave in Question 6. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._",
+      "subtitle_question": "What if, instead, researchers had found that employment actually fell 5 percent in this other country relative to the control group. the estimates suggest that the actual decrease is between -10 and 0 percentage points. Would this information change your beliefs about the impact of the training in the Moravian Silesian region?  \n\n_Please look again at the answers you gave in Question 6. If you want to update your estimate insert the new distribution of probabilities, otherwise insert again the same distribution as you did above._",
       "column_1": "% Change in Full-time Employees",
       "column_2": "Probabilities",
       "minor_value": "<-15.0",
@@ -160,7 +148,7 @@
       "title_y_axis": "Probabilities",
       "title_barchart": "Distribution of your Beliefs",
       "num_input_question": "num_input_question8",
-      "effect_size": "- What would be the minimum impact you would want to see in order to consider scaling up this program to more firms? Express your answer in percentage points, e.g. if you would want the number of employees to increase by at least X%, you should give X as your answer."
+      "effect_size": "- What would be the minimum impact you would want to see in order to offer this program to more firms? Express your answer in percentage points. For example, if you would want the number of employees to increase by at least X%, you should give X as your answer."
     },
 
     "question9": {
@@ -187,8 +175,8 @@
       "question_number": "Question 10",
       "key_form": "key_form10",
       "title_question": "Question 10 - Correlation Between Effects of the Program in Romania and Those in Another Country",
-      "subtitle_question": "We would like you to express your beliefs about the correlation you would expect to see between effects of the program in Romania and those in another country in the region. A negative correlation means you think if a program has a negative impact somewhere else this makes it more likely it has a positive impact in Romania. A 0 correlation means no relationship between what you find elsewhere and what you expect to see in Romania, while a positive correlation means if you think that when programs find a high impact somewhere else you will be more likely to also find a high impact in Romania. A positive number between 0 and 1 means the two don't move perfectly together, but that you are somewhat more likely to see positive impacts in Romania where you see them somewhere else.\n_Please allocate the probabilities in the cells corresponding to your beliefs._",
-      "column_1": " Correlation",
+      "subtitle_question": "We would like you to express your beliefs about the correlation you would expect to see between treatment estimates in Moravian Silesian region and those in another country. A negative correlation means you think if Smart Start training has a negative impact somewhere else this makes it more likely it has a positive impact in Moravian Silesian. A 0 correlation means no relationship between what you find elsewhere and what you expect to see in Moravian Silesian region, while a positive correlation means if you think that when programs find a high impact somewhere else you will be more likely to also find a high impact in Moravian Silesian region.  \n_Please allocate the probabilities in the cells corresponding to your beliefs._",
+      "column_1": "Correlation",
       "column_2": "Probabilities",
       "minor_value": "-1.0",
       "min_value_graph": -1,

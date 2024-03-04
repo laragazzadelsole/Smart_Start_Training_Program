@@ -161,7 +161,7 @@ cython_debug/
 
 secrets.toml
 
-romania-digitalization-project-keys.json
+keys.json
 
-venv1
+.venv
 ntbl*
