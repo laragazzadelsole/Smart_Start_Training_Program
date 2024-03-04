@@ -253,7 +253,7 @@ def add_submission(updated_bins_question_1_df, updated_bins_question_2_df, updat
 
     column_names_list = concatenated_df.columns.tolist()
     #test_sheet = client.create(f'Test for Romania').sheet1
-    column_names = sheet.append_row(column_names_list)
+    #column_names = sheet.append_row(column_names_list)
     sheet_row_update = sheet.append_rows(concatenated_df.values.tolist()) #.values.tolist())
     #duplicate = sheet.duplicate(new_sheet_name='Duplicate data')
     #st.success('Data has been saved successfully.')
