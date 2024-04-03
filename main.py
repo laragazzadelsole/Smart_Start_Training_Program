@@ -88,8 +88,17 @@ if st.session_state['consent']:
     st.write("Rate your willingness to take risks in general on a 10-point scale, with 1 completely unwilling and 10 completely willing.")
 
     col1, col2= st.columns(2)
+    def render(x):
+        if x == 1:
+            return f"Completely unwilling"
+        elif x == 10:
+            return f"Completely willing"
+        else:
+            return f"{x}"
+        
     with col1:   
-        st.slider("Please move the slider to indicate your preference.", 1, 10, key= "risk_aversion")
+        st.select_slider("Please move the slider to indicate your preference.", options= list(range(1,11)), format_func=render, key= "risk_aversion")
+#        value=('Completely unwilling', 'Completely willing')
 
     if st.session_state['professional_category'] in ['Government Official/Donor', 'Program Implementer/Practitioner']:
         RCT_questions() 
